@@ -16,14 +16,14 @@ A simple web application built using Express.js for the backend and Mongoose as 
 - HTML/CSS for the front end
 
 #Installation
-1. **Clone the repository**:
+#1. **Clone the repository**:
    git clone https://github.com/Nardos-Amakele/WebsiteTrainingTwo.git
    cd WebsiteTrainingTwo
-2. Install the libraries:
+#2. Install the libraries:
      npm install
-3.Create a .env file in the root directory and add this file to connect it to your database:
+#3.Create a .env file in the root directory and add this file to connect it to your database:
     JWT_SECRET=your_secret_key
     MONGODB_URI=your_mongodb_connection_string
-4.Run the application:
+#4.Run the application:
   npx nodemon server.js or npm start
 
